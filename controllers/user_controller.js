@@ -41,7 +41,6 @@ exports.userProfile = async (req, res) => {
     }
 
    
-   
 
     res.status(200).json(profile);
   } catch (error) {
