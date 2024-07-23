@@ -40,8 +40,8 @@ exports.userProfile = async (req, res) => {
       return res.status(404).json({ error: "Admin not found" });
     }
 
-    // This line is unnecessary unless you modify the admin object.
-    // admin.save();
+   
+   
 
     res.status(200).json(profile);
   } catch (error) {
